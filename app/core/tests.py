@@ -32,3 +32,6 @@ class ModelTest(TestCase):
         user = get_user_model().objects.create_superuser('shakil@gmail.com', 'simpleTest')
         self.assertTrue(user.is_superuser)
         self.assertTrue(user.is_staff)
+
+
+
