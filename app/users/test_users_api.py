@@ -5,7 +5,7 @@ from django.urls import reverse
 from rest_framework.test import APIClient
 from rest_framework import status
 
-CREATE_USER_URL = reverse('user:create')
+CREATE_USER_URL = reverse('users:create')
 
 
 def create_user(**kwargs):
@@ -44,19 +44,21 @@ class PublicUserApi(TestCase):
 
     def test_password_too_short(self):
         payload = {
-            'email': 'test@gmail.com',
+            'email': 'test1@gmail.com',
             'password': 'pw',
         }
 
-        create_user(**payload)
+        # create_user(**payload)
 
         res = self.client.post(CREATE_USER_URL, payload)
 
         self.assertEquals(res.status_code, status.HTTP_400_BAD_REQUEST)
+        print(res.status_code)
 
-        user_exists = get_user_model().objects.filter(
+        user = get_user_model().objects.filter(
             email=payload["email"]
-        ).exists()
+        )
 
+        user_exists = user.exists()
         self.assertFalse(user_exists)
 
