@@ -18,7 +18,6 @@ class PublicUserApi(TestCase):
         self.client = APIClient()
 
     def test_create_valid_user_success(self):
-
         payload = {
             'email': 'test@gmail.com',
             'password': '1234testpass',
