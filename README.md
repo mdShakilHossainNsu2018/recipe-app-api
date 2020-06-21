@@ -18,5 +18,5 @@ This is recipe app using django best practice backend api with test driven devel
 
 ## some ss below
 
-<img src="project_ss/Annotation 2020-06-21 234327.png"></img>
-<img src="project_ss/Annotation 2020-06-21 234530.png"></img>
+<img src="project_ss/im1.png"></img>
+<img src="project_ss/im2.png"></img>
