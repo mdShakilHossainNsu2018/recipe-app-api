@@ -18,6 +18,6 @@ This is recipe app using django best practice backend api with test driven devel
 
 ## some ss below
 
-<img src="project_ss/im1.png" width="800"></img>
-<img src="project_ss/im2.png" width="800"></img>
-<img src="project_ss/im3.jpg" width="800"></img>
+<img src="project_ss/im1.png", width="800"/>
+<img src="project_ss/im2.png", width="800"/>
+<img src="project_ss/im3.jpg", width="800"/>
