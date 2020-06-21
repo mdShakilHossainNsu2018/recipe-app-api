@@ -1,7 +1,8 @@
 # recipe-app-api
-This is recipe app using django best practice 
+This is recipe app using django best practice backend api with test driven development.
 
-<p style='color:red'>This is some red text.</p>
+
+
 ### Requirements
 
 >Django>=2.1.3, <3.0.7
@@ -13,3 +14,9 @@ This is recipe app using django best practice
 >coreapi==2.3.3
 >
 >Pillow>=5.3.0 , <5.4.0
+
+
+## some ss below
+
+<img src="project_ss/Annotation 2020-06-21 234327.png"></img>
+<img src="project_ss/Annotation 2020-06-21 234530.png"></img>
