@@ -15,6 +15,13 @@ This is recipe app using django best practice backend api with test driven devel
 >
 >Pillow>=5.3.0 , <5.4.0
 
+# Technology 
+
+> Docker
+>
+>django
+>
+>django rest framework
 
 ## some ss below
 
