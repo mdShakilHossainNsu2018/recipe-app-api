@@ -20,3 +20,4 @@ This is recipe app using django best practice backend api with test driven devel
 
 <img src="project_ss/im1.png"></img>
 <img src="project_ss/im2.png"></img>
+<img src="project_ss/im3.jpg"></img>
